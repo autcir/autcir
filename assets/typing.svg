@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="32" viewBox="0 0 550 32" role="img" aria-labelledby="t">
+  <title id="t">Founder @ StudioCentOS · Creator &amp; Human Supreme of erOs · Building Autonomous AI-Driven Ventures · Salerno × Barcelona</title>
+  <style>
+    text {
+      font: 16px "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      fill: #1f2937;
+      text-anchor: middle;
+      opacity: 0;
+      animation: line 12s infinite backwards;
+    }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #f3f4f6; }
+    }
+    .l2 { animation-delay: 3s; }
+    .l3 { animation-delay: 6s; }
+    .l4 { animation-delay: 9s; }
+    @keyframes line {
+      0%   { opacity: 0; }
+      3%   { opacity: 1; }
+      22%  { opacity: 1; }
+      25%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      text { animation: none; }
+      .l1 { opacity: 1; }
+    }
+  </style>
+  <text class="l1" x="275" y="21">Founder @ StudioCentOS</text>
+  <text class="l2" x="275" y="21">Creator &amp; Human Supreme of erOs</text>
+  <text class="l3" x="275" y="21">Building Autonomous AI-Driven Ventures</text>
+  <text class="l4" x="275" y="21">Salerno × Barcelona</text>
+</svg>
