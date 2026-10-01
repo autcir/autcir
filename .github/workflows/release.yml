@@ -5,42 +5,75 @@ on:
     tags:
       - "v*"
 
-permissions:
-  contents: write
+permissions: {}
+
+concurrency:
+  group: release-${{ github.ref_name }}
+  cancel-in-progress: false
 
 jobs:
   release:
+    name: Release
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write # create the GitHub release
+
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       # Prefer the hand-written CHANGELOG entry when one exists for this tag;
-      # fall back to the commit log so a release is never empty.
+      # fall back to the commit log so a release is never empty. The notes go to
+      # RUNNER_TEMP so the checked-out tree stays clean. The tag name only
+      # reaches the shell through an env var, never through ${{ }} in the script.
       - name: Build release notes
         id: notes
+        env:
+          TAG: ${{ github.ref_name }}
         run: |
-          tag="${GITHUB_REF_NAME}"
-          version="${tag#v}"
-          if [ -f CHANGELOG.md ] && grep -q "^## \[${version}\]" CHANGELOG.md; then
+          set -euo pipefail
+          version="${TAG#v}"
+          notes="${RUNNER_TEMP}/notes.md"
+
+          if [ -f CHANGELOG.md ]; then
+            # index() is a literal match: dots in the version are not regex.
             awk -v v="$version" '
-              $0 ~ "^## \\["v"\\]" {f=1; next}
+              index($0, "## [" v "]") == 1 {f=1; next}
               f && /^## \[/ {exit}
+              f && /^\[[^]]+\]: / {next}
               f {print}
-            ' CHANGELOG.md > notes.md
+            ' CHANGELOG.md > "$notes"
           else
-            prev=$(git describe --tags --abbrev=0 "${tag}^" 2>/dev/null || true)
+            : > "$notes"
+          fi
+
+          if ! grep -q '[^[:space:]]' "$notes"; then
+            prev=$(git describe --tags --abbrev=0 "${TAG}^" 2>/dev/null || true)
             if [ -n "$prev" ]; then
-              git log --pretty='- %s' "${prev}..${tag}" > notes.md
+              git log --pretty='- %s' "${prev}..${TAG}" > "$notes"
             else
-              git log --pretty='- %s' > notes.md
+              git log --pretty='- %s' "${TAG}" > "$notes"
             fi
           fi
-          cat notes.md
 
+          cat "$notes"
+          echo "path=${notes}" >> "$GITHUB_OUTPUT"
+
+      # The runner already ships the gh CLI, so no third-party release action
+      # is needed (one less dependency to pin and review).
       - name: Publish release
-        uses: softprops/action-gh-release@v2
-        with:
-          body_path: notes.md
-          draft: false
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          NOTES: ${{ steps.notes.outputs.path }}
+        run: |
+          set -euo pipefail
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release edit "$TAG" --title "$TAG" --notes-file "$NOTES"
+          else
+            gh release create "$TAG" --verify-tag --title "$TAG" --notes-file "$NOTES"
+          fi
