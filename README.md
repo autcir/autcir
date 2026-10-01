@@ -1,6 +1,8 @@
 <div align="center">
 
 # Ciro Autuori
+
+<!-- markdownlint-disable-next-line MD001 -->
 ### Founder @ StudioCentOS · AI Venture Studio · Salerno × Barcelona
 
 ![Founder @ StudioCentOS · Creator & Human Supreme of erOs · Building Autonomous AI-Driven Ventures · Salerno × Barcelona](assets/typing.svg)
@@ -17,7 +19,7 @@
 ## 🏛️ Autuori Holding — High Tier Brands
 
 | Brand | Domain | Role & Platform |
-|---|---|---|
+| --- | --- | --- |
 | 🧠 **erOs** | Multi-Agent Orchestrator | Autonomous governance & intelligence kernel for holding operations |
 | 🏢 **StudioCentOS** | [studiocentos.com](https://studiocentos.com) | AI Venture Studio & Bespoke Software Engineering |
 | 👁️ **cvlab** | [cv-lab.pro](https://cv-lab.pro) | Advanced Computer Vision & Synthetic Data Solutions |
