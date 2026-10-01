@@ -3,7 +3,7 @@
 # Ciro Autuori
 ### Founder @ StudioCentOS · AI Venture Studio · Salerno × Barcelona
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&pause=1200&color=F3F4F6&center=true&vCenter=true&width=550&lines=Founder+%40+StudioCentOS;Creator+%26+Human+Supreme+of+erOs;Building+Autonomous+AI-Driven+Ventures;Salerno+%C3%97+Barcelona)](https://git.io/typing-svg)
+![Founder @ StudioCentOS · Creator & Human Supreme of erOs · Building Autonomous AI-Driven Ventures · Salerno × Barcelona](assets/typing.svg)
 
 [![Website](https://img.shields.io/badge/studiocentos.com-0f172a?style=for-the-badge&logo=googlechrome&logoColor=38bdf8)](https://studiocentos.com)
 [![GitHub](https://img.shields.io/badge/GitHub-autcir-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/autcir)
@@ -35,6 +35,16 @@
     <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/autcir/autcir/output/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
 </div>
+
+<sub>
+
+How the snake works: [`snake.yml`](.github/workflows/snake.yml) runs daily and on demand.
+[Platane/snk](https://github.com/Platane/snk) turns the public contribution graph into a light
+and a dark SVG, and the workflow force-pushes both to the `output` branch (a single commit, so
+`main` never carries generated files). The picture above is served from that branch; the typing
+banner at the top is the static file [`assets/typing.svg`](assets/typing.svg).
+
+</sub>
 
 ---
 
