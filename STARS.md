@@ -1,6 +1,6 @@
 # ⭐ Categorized GitHub Stars Showcase
 
-A curated index of all **125 starred repositories** on `@ciroautuori`, organized by technical domain and ecosystem.
+A curated index of all **125 starred repositories** on `@autcir`, organized by technical domain and ecosystem.
 
 ## 📌 Quick Navigation
 

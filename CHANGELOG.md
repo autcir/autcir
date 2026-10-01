@@ -12,4 +12,4 @@ Notable changes to this GitHub profile repository.
 - Contribution snake animation, generated locally via Docker
 - `SECURITY.md`, `.editorconfig`, Dependabot, and a release workflow
 
-[1.0.0]: https://github.com/ciroautuori/ciroautuori/releases/tag/v1.0.0
+[1.0.0]: https://github.com/autcir/autcir/releases/tag/v1.0.0
