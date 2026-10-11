@@ -1,0 +1,23 @@
+name: ✏️ Profile correction
+description: Wrong link, outdated project, broken badge, rendering issue
+labels: [profile]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a **profile repository** — the README is the landing page at github.com/autcir.
+        Issues about my *projects* belong in their own repositories.
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong
+      description: Quote the line, link the section, paste the broken badge URL.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: The correct content or link, if you know it.
+    validations:
+      required: false
