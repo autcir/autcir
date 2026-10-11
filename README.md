@@ -77,7 +77,6 @@ One Rust codebase runs every company of the holding and every client, with data 
 - 🎨 [**R3F Rules**](https://github.com/autcir/r3f-rules) — 13 hard rules + audit scorecard + AI-agent skill for React Three Fiber production
 - 💻 [**ArchLegion**](https://github.com/autcir/archlegion) — Automated Arch Linux DevOps workstation setup for Lenovo Legion (GPU switching, hardening, NVIDIA Optimus)
 - 🦐 [**Awesome Salerno**](https://github.com/autcir/awesome-salerno) — Curated list of resources for Salerno, the Amalfi Coast and the Cilento
-- 🎮 [**quiz.is-a.dev**](https://github.com/autcir/quiz.is-a.dev) — Open-source multi-track developer game & quiz lab (Python, TypeScript, Git, AI) — 100% free
 
 ---
 
