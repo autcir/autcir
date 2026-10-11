@@ -1,6 +1,8 @@
 <div align="center">
 
 # Ciro Autuori
+
+<!-- markdownlint-disable-next-line MD001 -->
 ### Founder @ StudioCentOS · AI Venture Studio · Salerno × Barcelona
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&pause=1200&color=F3F4F6&center=true&vCenter=true&width=600&lines=Founder+%40+StudioCentOS;Building+er0s+%E2%80%94+the+sovereign+agent+OS;Rust+%C2%B7+Next.js+%C2%B7+self-hosted+infrastructure;Your+server%2C+your+data%2C+your+code;Salerno+%C3%97+Barcelona)](https://git.io/typing-svg)
@@ -18,7 +20,7 @@
 ## 🏛️ Autuori Holding — What We Run Today
 
 | Brand | Domain | Role & Platform |
-|---|---|---|
+| --- | --- | --- |
 | ⚙️ **er0s** | [er0s.studiocentos.com](https://er0s.studiocentos.com) | Sovereign agent engine: deterministic kernel + 6 C-Agent roles (CEO *EROS*, CFO, CTO, COO, CBO, CLO) sharing one Brain. Human approval gate, zero lock-in — delivered on your own European server |
 | 🏢 **StudioCentOS** | [studiocentos.com](https://studiocentos.com) | AI Venture Studio & Bespoke Software Engineering — custom software for professional studios, delivered with source code |
 | 🧬 **my0s** | [my0s.com](https://my0s.com) | Personal OS B2C: single-person CEO, brand companion & second brain — portfolio, bookings and payments in one place |
