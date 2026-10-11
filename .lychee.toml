@@ -1,0 +1,14 @@
+# Link checker settings (lychee). Kept small; every exclusion has a reason.
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+# 429 = rate limited, not dead.
+accept = ["200..=299", "429"]
+
+exclude = [
+  # Social sites answer bots with a login wall or non-2xx codes (LinkedIn 999)
+  # whether the profile exists or not, so the result carries no information.
+  '^https?://(www\.)?linkedin\.com/',
+  '^https?://(www\.)?instagram\.com/',
+]

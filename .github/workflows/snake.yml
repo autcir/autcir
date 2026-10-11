@@ -1,11 +1,17 @@
 name: Generate Snake Animation
 
+# The SVG only depends on the contribution graph, never on repository content,
+# so a push to main has nothing to regenerate. Cron + manual run are enough.
 on:
   schedule:
-    - cron: "0 0 * * *"   # ogni giorno a mezzanotte UTC
-  workflow_dispatch:        # manuale via GitHub UI
-  push:
-    branches: [main]
+    - cron: "23 2 * * *" # daily, off the top of the hour to avoid queue spikes
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: snake
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -14,13 +20,16 @@ jobs:
     timeout-minutes: 10
 
     permissions:
-      contents: write
+      contents: write # push the generated SVGs to the `output` branch
 
     steps:
-      - uses: actions/checkout@v4
+      # Also wipes stale files left in the workspace of a self-hosted runner.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
       - name: Generate Snake Animation
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -28,7 +37,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
           target_branch: output
           build_dir: dist

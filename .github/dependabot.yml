@@ -1,12 +1,20 @@
 version: 2
 updates:
-  # Only GitHub Actions: the workflow files are the one dependency surface here
-  # that receives security updates and can be updated without touching the
-  # host system.
+  # Only GitHub Actions: the workflow files are the one dependency surface here.
+  # Every action is pinned to a full commit SHA, and Dependabot rewrites the SHA
+  # and the trailing version comment together.
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
+    # Let a release age a few days before proposing it, so a hijacked or yanked
+    # release is less likely to be adopted immediately.
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions:
+        patterns:
+          - "*"
     commit-message:
       prefix: "chore"
     labels:

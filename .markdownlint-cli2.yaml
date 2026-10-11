@@ -1,0 +1,23 @@
+# Rules relaxed on purpose, each for a concrete reason in this repo:
+config:
+  default: true
+  # Prose and tables are written on long lines, wrapping them adds nothing.
+  MD013: false
+  # The profile README is HTML-heavy by design (centering, <picture> for the
+  # light/dark snake, <sub>).
+  MD033: false
+  # README.md opens with a centered <div>, not a heading.
+  MD041: false
+  # Keep a Changelog repeats Added/Changed/Removed under every version.
+  MD024:
+    siblings_only: true
+  # Tables are written both compact and padded; pick neither as "the" style.
+  MD060:
+    style: any
+
+globs:
+  - "**/*.md"
+
+ignores:
+  - node_modules/**
+  - dist/**
