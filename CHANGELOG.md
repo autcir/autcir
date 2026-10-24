@@ -16,6 +16,10 @@ uses [Semantic Versioning](https://semver.org/) for its tags.
 
 ### Changed
 
+- Every workflow runs on the `soliso-autcir-autcir` runner, labels
+  `[self-hosted, soliso, autcir]`
+- Key repositories: ArchLOQ added; R3F Rules removed (the repository no
+  longer exists, and its 404 failed the link check)
 - `STARS.md` is generated from the Lists, carries a snapshot date and no
   longer lists star counts (they went stale immediately)
 - All GitHub Actions are pinned to full commit SHAs; workflows use minimal

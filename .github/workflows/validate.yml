@@ -15,7 +15,7 @@ concurrency:
 jobs:
   markdownlint:
     name: Markdown lint
-    runs-on: [self-hosted, soliso]
+    runs-on: [self-hosted, soliso, autcir]
     timeout-minutes: 5
     permissions:
       contents: read
@@ -31,7 +31,7 @@ jobs:
 
   gitleaks:
     name: Secret scan (full history)
-    runs-on: [self-hosted, soliso]
+    runs-on: [self-hosted, soliso, autcir]
     timeout-minutes: 5
     permissions:
       contents: read

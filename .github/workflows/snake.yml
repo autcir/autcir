@@ -16,7 +16,7 @@ concurrency:
 jobs:
   generate:
     name: Generate
-    runs-on: self-hosted
+    runs-on: [self-hosted, soliso, autcir]
     timeout-minutes: 10
 
     permissions:

@@ -74,8 +74,8 @@ One Rust codebase runs every company of the holding and every client, with data 
 
 - ⚡ [**Openvidia**](https://github.com/autcir/openvidia) — Multi-key proxy for NVIDIA NIM with native desktop dashboard: auto-rotation, cooldowns, RPM limiting, Claude Code + Codex CLI + opencode support
 - 🎙️ [**Whispy**](https://github.com/autcir/whispy) — Local & multi-provider voice dictation for Linux (whisper.cpp, Groq, OpenAI, Faster-Whisper) — hold a key, speak, release
-- 🎨 [**R3F Rules**](https://github.com/autcir/r3f-rules) — 13 hard rules + audit scorecard + AI-agent skill for React Three Fiber production
 - 💻 [**ArchLegion**](https://github.com/autcir/archlegion) — Automated Arch Linux DevOps workstation setup for Lenovo Legion (GPU switching, hardening, NVIDIA Optimus)
+- 💻 [**ArchLOQ**](https://github.com/autcir/archloq) — Automated Arch Linux setup for Lenovo LOQ 17IRX10 (NVIDIA Blackwell RTX 5060, power/fan/CPU tuning, KDE Plasma Wayland dotfiles)
 - 🦐 [**Awesome Salerno**](https://github.com/autcir/awesome-salerno) — Curated list of resources for Salerno, the Amalfi Coast and the Cilento
 
 ---
