@@ -24,7 +24,7 @@
 | ⚙️ **er0s** | [er0s.studiocentos.com](https://er0s.studiocentos.com) | Sovereign agent engine: deterministic kernel + 6 C-Agent roles (CEO *EROS*, CFO, CTO, COO, CBO, CLO) sharing one Brain. Human approval gate, zero lock-in — delivered on your own European server |
 | 🏢 **StudioCentOS** | [studiocentos.com](https://studiocentos.com) | AI Venture Studio & Bespoke Software Engineering — custom software for professional studios, delivered with source code |
 | 🧬 **my0s** | [my0s.com](https://my0s.com) | Personal OS B2C: single-person CEO, brand companion & second brain — portfolio, bookings and payments in one place |
-| 🛒 **markettina** | [markettina.com](https://markettina.com) | Curated tech & desk-products store — only what passes the field use test enters the catalog |
+| 🛒 **markettina** | [markettina.com](https://markettina.com) (paused) | Curated tech & desk-products store — only what passes the field use test enters the catalog |
 | 🏙️ **salernos** | [salernos.it](https://salernos.it) | City platform for Salerno: mobility, civic passes (EUDI wallet), events, transit and local services |
 
 **Live customer systems** — [gaetanobaratto.it](https://gaetanobaratto.it) (tax studio) and [gerardorusso.it](https://gerardorusso.it) (law firm), each on its own dedicated node.
