@@ -3,12 +3,13 @@
 # Ciro Autuori
 
 <!-- markdownlint-disable-next-line MD001 -->
-### Founder @ StudioCentOS · AI Venture Studio · Salerno × Barcelona
+### Founder @ StudioCentOS · software & AI studio · Salerno × Barcelona
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&pause=1200&color=F3F4F6&center=true&vCenter=true&width=600&lines=Founder+%40+StudioCentOS;Building+er0s+%E2%80%94+the+sovereign+agent+OS;Rust+%C2%B7+Next.js+%C2%B7+self-hosted+infrastructure;Your+server%2C+your+data%2C+your+code;Salerno+%C3%97+Barcelona)](https://git.io/typing-svg)
 
 [![Website](https://img.shields.io/badge/studiocentos.com-0f172a?style=for-the-badge&logo=googlechrome&logoColor=38bdf8)](https://studiocentos.com)
-[![er0s](https://img.shields.io/badge/er0s-engine-0f172a?style=for-the-badge&logo=rust&logoColor=f74c00)](https://er0s.studiocentos.com)
+[![er0s](https://img.shields.io/badge/er0s-engine-0f172a?style=for-the-badge&logo=rust&logoColor=f74c00)](https://studiocentos.com/er0s)
+[![YouTube](https://img.shields.io/badge/YouTube-@autcir-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@autcir)
 [![GitHub](https://img.shields.io/badge/GitHub-autcir-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/autcir)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ciro_Autuori-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ciroautuori)
 [![Instagram](https://img.shields.io/badge/@autcir-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/autcir)
@@ -21,13 +22,15 @@
 
 | Brand | Domain | Role & Platform |
 | --- | --- | --- |
-| ⚙️ **er0s** | [er0s.studiocentos.com](https://er0s.studiocentos.com) | Sovereign agent engine: deterministic kernel + 6 C-Agent roles (CEO *EROS*, CFO, CTO, COO, CBO, CLO) sharing one Brain. Human approval gate, zero lock-in — delivered on your own European server |
-| 🏢 **StudioCentOS** | [studiocentos.com](https://studiocentos.com) | AI Venture Studio & Bespoke Software Engineering — custom software for professional studios, delivered with source code |
-| 🧬 **my0s** | [my0s.com](https://my0s.com) | Personal OS B2C: single-person CEO, brand companion & second brain — portfolio, bookings and payments in one place |
+| ⚙️ **er0s** | [studiocentos.com/er0s](https://studiocentos.com/er0s) | The digital office: deterministic kernel + 6 AI roles (CEO, CFO, CTO, COO, CBO, CLO) sharing one Brain, with a human approval gate — installed by hand on your own European server |
+| 🏢 **StudioCentOS** | [studiocentos.com](https://studiocentos.com) | Ciro's software & AI studio — websites, digital offices and automations for professional studios and small businesses |
+| 🧬 **my0s** | [my0s.com](https://my0s.com) | Your personal space online: @username showcase and QR, CV in PDF, linked-notes Second Brain |
 | 🛒 **markettina** | [markettina.com](https://markettina.com) (paused) | Curated tech & desk-products store — only what passes the field use test enters the catalog |
-| 🏙️ **salernos** | [salernos.it](https://salernos.it) | City platform for Salerno: mobility, civic passes (EUDI wallet), events, transit and local services |
+| 🏙️ **salernos** | [salernos.it](https://salernos.it) | Independent guide to Salerno: what to see, eat and do, Luci d'Artista, getting around; free for local businesses to join |
 
-**Live customer systems** — [gaetanobaratto.it](https://gaetanobaratto.it) (tax studio) and [gerardorusso.it](https://gerardorusso.it) (law firm), each on its own dedicated node.
+| 🎬 **AutCir** | [youtube.com/@autcir](https://www.youtube.com/@autcir) · [autcir.studiocentos.com](https://autcir.studiocentos.com) | YouTube channel (Italian, audio in 5 languages): I really test AI tools and automation on real work, mistakes included |
+
+**Customer cases** — see [studiocentos.com](https://studiocentos.com/#prodotti).
 
 ---
 
