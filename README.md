@@ -3,14 +3,17 @@
 # Ciro Autuori
 
 <!-- markdownlint-disable-next-line MD001 -->
-### Founder @ StudioCentOS · software & AI studio · Salerno × Barcelona
+### I work with AI every day and show the real work, mistakes included
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&pause=1200&color=F3F4F6&center=true&vCenter=true&width=600&lines=Founder+%40+StudioCentOS;Building+er0s+%E2%80%94+the+sovereign+agent+OS;Rust+%C2%B7+Next.js+%C2%B7+self-hosted+infrastructure;Your+server%2C+your+data%2C+your+code;Salerno+%C3%97+Barcelona)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&pause=1200&color=F3F4F6&center=true&vCenter=true&width=600&lines=I+work+with+AI+every+day;Rust+%C2%B7+Next.js+%C2%B7+self-hosted;Videos+on+YouTube+%40autcir;Free+gift+on+Patreon)](https://git.io/typing-svg)
+
+🎥 Videos on [YouTube @autcir](https://www.youtube.com/@autcir) · 📱 [TikTok @autcir_](https://www.tiktok.com/@autcir_)<br>
+💻 Sites and automations: [studiocentos.com](https://studiocentos.com) · 🎁 [Free gift on Patreon](https://www.patreon.com/AutCir)
 
 [![Website](https://img.shields.io/badge/studiocentos.com-0f172a?style=for-the-badge&logo=googlechrome&logoColor=38bdf8)](https://studiocentos.com)
 [![er0s](https://img.shields.io/badge/er0s-engine-0f172a?style=for-the-badge&logo=rust&logoColor=f74c00)](https://studiocentos.com/er0s)
 [![YouTube](https://img.shields.io/badge/YouTube-@autcir-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@autcir)
-[![GitHub](https://img.shields.io/badge/GitHub-autcir-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/autcir)
+[![TikTok](https://img.shields.io/badge/TikTok-@autcir__-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@autcir_)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ciro_Autuori-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ciroautuori)
 [![Instagram](https://img.shields.io/badge/@autcir-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/autcir)
 
@@ -18,7 +21,7 @@
 
 ---
 
-## 🏛️ Autuori Holding — What We Run Today
+## 🧰 What I Work On
 
 | Brand | Domain | Role & Platform |
 | --- | --- | --- |
@@ -27,7 +30,6 @@
 | 🧬 **my0s** | [my0s.com](https://my0s.com) | Your personal space online: @username showcase and QR, CV in PDF, linked-notes Second Brain |
 | 🛒 **markettina** | [markettina.com](https://markettina.com) (paused) | Curated tech & desk-products store — only what passes the field use test enters the catalog |
 | 🏙️ **salernos** | [salernos.it](https://salernos.it) | Independent guide to Salerno: what to see, eat and do, Luci d'Artista, getting around; free for local businesses to join |
-
 | 🎬 **AutCir** | [youtube.com/@autcir](https://www.youtube.com/@autcir) · [autcir.studiocentos.com](https://autcir.studiocentos.com) | YouTube channel (Italian, audio in 5 languages): I really test AI tools and automation on real work, mistakes included |
 
 **Customer cases** — see [studiocentos.com](https://studiocentos.com/#prodotti).
